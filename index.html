@@ -3,38 +3,63 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Webring.uk</title>
+    <title>webring.uk</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <div class="antialiased text-gray-900 px-6">
-      <div class="max-w-xl mx-auto py-4 divide-y md:max-w-4xl">
-        <section class="py-8 flex flex-col gap-5">
-          <h1 class="text-4xl leading-12">Webring.uk</h1>
-          <h4 class="text-xl text-gray-600">
-            A directory of personal sites of computer nerds / artists / writers
-            / whoever living in the UK
-          </h4>
-          <ol>
-            <!--Template 
+    <div class="antialiased text-gray-900 max-w-xl mx-auto py-8 md:max-w-3xl">
+      <main class="flex flex-col gap-12">
+        <h1 class="text-5xl leading-12">Webring UK</h1>
+        <div class="flex flex-col text-2xl text-gray-700 gap-5">
+          <p>
+            A web ring for personal / portfolio sites of computer nerds /
+            artists / writers / whoever living in the UK
+          </p>
+          <p>
+            At its best this web ring is an opportunity to foster connection
+            between different people, at its worst it's a cool way to provide
+            traffic to one another
+          </p>
+        </div>
+        <hr />
+        <ol class="grid grid-cols-4 gap-5 text-lg underline">
+          <!--Template 
                 <li>
                     <a href="https://your-site.com">Your Name</a>
                 </li>
             -->
-            <li id="1"><a href="https://hialex.uk">Alex Madesclaire</a></li>
-            <li id="2"><a href="https://hialex.uk">Leroy Jenkins</a></li>
-            <li id="3"><a href="https://hialex.uk">Jimmy Dean</a></li>
-            <li id="4"><a href="https://hialex.uk">Levi Garret</a></li>
-            <li id="5"><a href="https://hialex.uk">Phillip Morris</a></li>
-            <li id="6"><a href="https://hialex.uk">ll Bean</a></li>
-            <li id="7"><a href="https://hialex.uk">Jimmy Choo</a></li>
-            <li id="8"><a href="https://hialex.uk">Chucky Cheese</a></li>
-          </ol>
-        </section>
-        <footer>
-          <p class="py-4 text-sm text-gray-400">This</p>
-        </footer>
-      </div>
+          <li id="1" class="hover:underline">
+            <a href="https://hialex.uk">alexandre madesclaire</a>
+          </li>
+          <li id="2" class="hover:underline">
+            <a href="https://www.aaronsserver.co.uk/">aaronserver</a>
+          </li>
+        </ol>
+        <hr />
+      </main>
+      <footer class="py-4">
+        <h4>Wanna join?</h4>
+        <p class="text-sm text-gray-400 mt-2">
+          Websites acting only as portals to other social platforms, explicitly
+          commercial or nsfw websites, and websites with violent, racist, or
+          sexist content will be rejected. Fill out
+          <a class="underline" href="https://forms.gle/aeP2bARWZbzdErBw8"
+            >this form</a
+          >
+          or create a
+          <a class="underline" href="https://github.com/amadesclaire/webringuk"
+            >pull request</a
+          >.
+        </p>
+        <br />
+        <p class="text-sm text-gray-400 mt-2">
+          Inspired by
+          <a class="underline" href="https://webring.xxiivv.com">xxiivv</a>
+          <a class="underline" href="https://hotlinewebring.club"
+            >hotlinewebring</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
